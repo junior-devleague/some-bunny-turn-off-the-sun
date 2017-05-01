@@ -35,3 +35,7 @@ main{
   height: 50px;
   border-radius: 50%;
 }
+
+.rabbit-hole img{
+  width: 150px;
+}
