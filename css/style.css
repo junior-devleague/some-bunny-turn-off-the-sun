@@ -39,3 +39,24 @@ main{
 .rabbit-hole img{
   width: 150px;
 }
+
+.rabbit-hole .sunny-bunny{
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.rabbit-hole .moonbeam-bunny{
+  opacity: 0;
+  transition: all 0.5s ease;
+  bottom: -10px;
+}
+
+
+.night .rabbit-hole .sunny-bunny{
+  opacity: 0;
+  bottom: -10px;
+}
+
+.night .rabbit-hole .moonbeam-bunny{
+  opacity: 1;
+}
